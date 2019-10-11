@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+
+    <script src="../public/js/linkers/weather.js"></script>
+
+    <title>Weather</title>
+</head>
+<body class="container">
+    <div class="container">
+        <img src="../public/images/01-weather.png" alt="weather">
+        <h1 class="display-4">Weather</h1>
+        <hr class="my-4">
+        <p>Enter your city name: </p>
+        <input type="text" name="city" id="city" style="border: 1px solid #000;
+        border-radius: 5px; padding: 5px;" placeholder="enter your city name">
+        <button class="btn btn-success" onclick="get_weather()">Go</button>
+    </div>
+</body>
+</html>
