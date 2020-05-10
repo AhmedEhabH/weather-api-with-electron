@@ -1,0 +1,31 @@
+{
+  "name": "wather-api-python-electron",
+  "version": "1.0.0",
+  "description": "use python to call weather api and use electron js as gui",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedEhabH/weather-api-with-electron.git"
+  },
+  "keywords": [
+    "python",
+    "electron.js",
+    "node.js"
+  ],
+  "author": "Ahmed Ehab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedEhabH/weather-api-with-electron/issues"
+  },
+  "homepage": "https://github.com/AhmedEhabH/weather-api-with-electron#readme",
+  "devDependencies": {
+    "electron": "^6.0.12"
+  },
+  "dependencies": {
+    "python-shell": "^1.0.8"
+  }
+}
