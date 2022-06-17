@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/AhmedEhabH/weather-api-with-electron#readme",
   "devDependencies": {
-    "electron": "^6.0.12"
+    "electron": "^15.5.5"
   },
   "dependencies": {
     "python-shell": "^1.0.8"
